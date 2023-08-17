@@ -10,10 +10,10 @@
   "dependencies": {
     "axios": "^0.21.1",
     "next": "latest",
-    "next-themes": "latest",
+    "next-themes": "^0.2.1",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-rough-notation": "^1.0.1"
+    "react-rough-notation": "^1.0.5"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.12",

@@ -1,5 +1,6 @@
 import React from "react";
 import userData from "@constants/data";
+import { Image } from 'next/image'
 
 export default function AboutMe() {
   return (
@@ -20,7 +21,7 @@ export default function AboutMe() {
               className="bg-red-500 rounded-md px-2 py-1 text-white"
               href={userData.about.currentProjectUrl}
             >
-              {userData.about.currentProject} ✈️
+              {userData.about.currentProject} 🎬
             </a>
           </p>
         </div>
@@ -66,42 +67,6 @@ export default function AboutMe() {
               Social Links
             </h1>
             <div className="mt-4 ml-4">
-              <div className="flex flex-row justify-start items-center ">
-                <a
-                  href={userData.socialLinks.peerlist}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Peerlist
-                  </div>
-                </a>
-              </div>
-              <div className="flex flex-row justify-start items-center ">
-                <a
-                  href={userData.socialLinks.facebook}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Facebook
-                  </div>
-                </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.twitter}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
-                    Twitter
-                  </div>
-                </a>
-              </div>
               <div className="flex flex-row justify-start items-center">
                 <a
                   href={userData.socialLinks.github}
@@ -116,6 +81,18 @@ export default function AboutMe() {
               </div>
               <div className="flex flex-row justify-start items-center">
                 <a
+                  href={userData.socialLinks.gitlab}
+                  className="flex flex-row items-center space-x-4 group"
+                >
+                  <div className="my-4">&rarr;</div>
+                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
+                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
+                    Instagram
+                  </div>
+                </a>
+              </div>
+              <div className="flex flex-row justify-start items-center">
+                <a
                   href={userData.socialLinks.linkedin}
                   className="flex flex-row items-center space-x-4 group"
                 >
@@ -123,18 +100,6 @@ export default function AboutMe() {
                   <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
                     <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-24 group-hover:translate-x-0 transition duration-300"></div>
                     LinkedIn
-                  </div>
-                </a>
-              </div>
-              <div className="flex flex-row justify-start items-center">
-                <a
-                  href={userData.socialLinks.instagram}
-                  className="flex flex-row items-center space-x-4 group"
-                >
-                  <div className="my-4">&rarr;</div>
-                  <div className="text-lg text-gray-500 font-mono relative overflow-hidden dark:text-gray-300">
-                    <div className="absolute h-0.5 w-full bg-gray-400 bottom-0 transform -translate-x-28 group-hover:translate-x-0 transition duration-300"></div>
-                    Instagram
                   </div>
                 </a>
               </div>
@@ -156,18 +121,6 @@ export default function AboutMe() {
             </h1>
             <div className="flex flex-row flex-wrap mt-8">
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/java/java.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/typescript/typescript.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png"
                 className="h-20 w-20 mx-4 my-4"
               />
@@ -176,15 +129,11 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/vue/vue.png"
-                className="h-20 w-20 mx-4 my-4"
-              />
-              <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/nodejs/nodejs.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -192,7 +141,19 @@ export default function AboutMe() {
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
-                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/firebase/firebase.png"
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/django/django.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/postgresql/postgresql.png"
                 className="h-20 w-20 mx-4 my-4"
               />
               <img
@@ -201,6 +162,10 @@ export default function AboutMe() {
               />
               <img
                 src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/mongodb/mongodb.png"
+                className="h-20 w-20 mx-4 my-4"
+              />
+              <img
+                src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/git/git.png"
                 className="h-20 w-20 mx-4 my-4"
               />
             </div>

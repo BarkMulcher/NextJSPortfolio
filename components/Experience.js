@@ -3,6 +3,13 @@ import React from "react";
 
 export default function Experience() {
   return (
+    <>
+    <section className="container mx-auto">
+      <a className="download-button" href="https://raw.githubusercontent.com/BarkMulcher/luke-haskell-portfolio/main/src/data/Lucas_Haskell_Resume_7.31.23.pdf" target='_blank' rel="noreferrer" download="Lucas Haskell Resume">Click Here To Download</a>
+        <article className='resume-pdf'>
+          <iframe title="Resume" src="https://docs.google.com/document/d/e/2PACX-1vSqpYEMht1hhOle8rMKiuE_JT8c97KYkMscPMw85DvTlmFtwqPnNKn7f-0mNoQRVVvatsPjQgq_Meyc/pub?embedded=true" width='90%' height='100%'></iframe>
+        </article>
+    </section>
     <section className="bg-white dark:bg-gray-800">
       <div className="max-w-6xl mx-auto h-48 bg-white dark:bg-gray-800">
         <h1 className=" text-5xl md:text-9xl font-bold py-20 text-center md:text-left">
@@ -35,6 +42,7 @@ export default function Experience() {
         </div>
       </div>
     </section>
+    </>
   );
 }
 
