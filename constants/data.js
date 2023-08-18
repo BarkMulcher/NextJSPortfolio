@@ -57,9 +57,9 @@ const userData = {
     title:
       "I'm a software developer that loves building products and web applications that impact millions of lives",
     description: [
-      `I've been developing full-stack application since I was 10 years old. I didn't know what full-stack meant at that time because the term was not coined back then. I'm so out of content right now that I'm literally crying writing this text since lorem text is so 2012 now.`,
-      `After learning HTML and struggling with CSS, I came up with a brilliant idea of using bootstrap so that I don't have to style everything by myself and - for obvious reasons - if you knew bootstrap, you were cool.`,
-      `But now, I'm a legend. I've been coding in React, Angular, Vue, Svelte, Node.js, Express, Fastify, MongoDB, MySQL, Bootstrap, Tailwind, C, C++, C#, Rust, Haskell, Perl, PHP, Assembly, Logo and YouDontKnowShit programming language etc to name a few. Although I barely know the syntax (Psst, Stack overflow!), I consider myself a Ninja developer I'm laughing right now.`,
+      `I am a 35 year old web developer from Southern Maine. I have an intense love for learning new things, and have extended this passion to web development. During and after some time in the military, I trotted the globe,`,
+        `and I believe that experience and perspective is of great benefit. I spent eight years in the semiconductor manufacturing field, an industry whose existence relies on the innovation and implementation of the world's `,
+        `most cutting-edge technology. My experience in that realm is what led me to continue my personal growth in web development. The dedication required in that role remains with me, and shines through to my new craft.`,
     ],
     currentProject: "Reelistr",
     currentProjectUrl: "https://barkmulcher.gitlab.io/module3-project-gamma",
