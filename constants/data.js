@@ -18,6 +18,11 @@ const userData = {
       imgUrl: "/judgement-day.jpg",
     },
     {
+      title: "Deep Thoughts",
+      link: "http://13.59.1.36",
+      imgUrl: "/DeepThoughts.jpg",
+    },
+    {
       title: "Index Mori",
       link: "https://serene-shelf-90086.herokuapp.com",
       imgUrl: "/indexmori.jpg",
@@ -55,7 +60,7 @@ const userData = {
   ],
   about: {
     title:
-      "I'm a software developer that loves building products and web applications that impact millions of lives",
+      "I'm a software developer that loves building web applications and learning new technologies.",
     description: [
       `I am a 35 year old web developer from Southern Maine. I have an intense love for learning new things, and have extended this passion to web development. During and after some time in the military, I trotted the globe,`,
         `and I believe that experience and perspective is of great benefit. I spent eight years in the semiconductor manufacturing field, an industry whose existence relies on the innovation and implementation of the world's `,
